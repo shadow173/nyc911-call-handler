@@ -1,0 +1,8 @@
+# tests/test_data_ingestion.py
+
+from src.data_ingestion import preprocess_transcription
+
+def test_preprocess_transcription():
+    input_text = "Hello, World!"
+    expected_output = "hello world"
+    assert preprocess_transcription(input_text) == expected_output

@@ -1,0 +1,12 @@
+pytest
+numpy
+pandas
+pydub
+librosa
+soundfile
+numpy
+openai
+noisereduce
+fastapi
+uvicorn
+python-multipart
